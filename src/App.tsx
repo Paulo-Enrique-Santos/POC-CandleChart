@@ -1,9 +1,12 @@
+import { Box } from '@mui/material'
 import './App.css'
 import Chart from './Chart'
 
 function App() {
   return (
-    <Chart />
+    <Box sx={{width: '900px', height: '500px'}}>
+      <Chart />
+    </Box>
   )
 }
 
